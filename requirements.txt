@@ -1,6 +1,4 @@
 flask
-moviepy
 openai-whisper
 torch
 ffmpeg-python
-numpy
