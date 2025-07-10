@@ -32,7 +32,7 @@ os.makedirs(TRANSCRIPTION_FOLDER, exist_ok=True)
 # Load Whisper model at startup
 logger.info("Loading Whisper model...")
 try:
-    whisper_model = whisper.load_model("base")
+    whisper_model = whisper.load_model("tiny")
     logger.info("Whisper model loaded successfully")
 except Exception as e:
     logger.error(f"Failed to load Whisper model: {e}")
